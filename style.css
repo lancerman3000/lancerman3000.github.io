@@ -26,7 +26,6 @@ body {
 
 .app {
     width: 1400px;
-    /* height: 100%; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -236,7 +235,45 @@ body {
     width: 488px;
     height: 451px;
     position: relative;
-    background: url(img/image\ 55.png) rgba(100, 72, 69, 0.8);
+    background: url(img/image\ 55.png);
+}
+
+.hover_item {
+    display: none;
+    position: absolute;
+    width: 488px;
+    height: 451px;
+    background: rgba(100, 72, 69, 0.8);
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.hover_item>p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    margin-top: 86px;
+    width: 270px;
+    height: 111px;
+}
+
+.hover_item>span {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    margin: 0 35px;
+    width: 418px;
+    height: 150px;
+}
+
+.portfolio__content__item:nth-child(1):hover .hover_item {
+    display: flex;
 }
 
 .portfolio__content__item:nth-child(2) {
@@ -542,8 +579,30 @@ body {
 
 .footer_text1 {
     margin-right: 42px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #533738;
+}
+
+.footer_text2 {
+    margin-right: 100px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #533738;
 }
 
 .footer_text3 {
-    margin-right: 100px;x
+    margin-right: 100px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #533738;
 }
