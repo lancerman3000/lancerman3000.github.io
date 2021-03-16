@@ -33,7 +33,7 @@ body {
 
 .main {
     background-image: url(img/anastasiya-vysotskaya-v5GfetB7Yv0-unsplash\ 1.png);
-    width: 1400px;
+    max-width: 1400px;
     background-repeat: no-repeat;
 }
 
